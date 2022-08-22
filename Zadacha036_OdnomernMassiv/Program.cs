@@ -4,7 +4,7 @@ int count = 0;
 Console.Write("[ ");
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = new Random().Next(0, 100);
+    array[i] = new Random().Next(-100, 100);
     Console.Write(array[i] + ", ");
 }
 for (int j = 0; j < array.Length; j++)
